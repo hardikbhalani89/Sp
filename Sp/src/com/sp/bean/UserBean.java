@@ -3,7 +3,7 @@ package com.sp.bean;
 import java.util.List;
 import java.util.UUID;
 
-
+import org.springframework.web.multipart.MultipartFile;
 
 
 
@@ -37,7 +37,15 @@ public class UserBean {
 	private String altemail;
 	private String profileurl;
 	
+	private List<MultipartFile> fileField;
 
+	public List<MultipartFile> getFileField() {
+		return fileField;
+	}
+
+	public void setFileField(List<MultipartFile> fileField) {
+		this.fileField = fileField;
+	}
 
 	public String getUserid() {
 		return userid;
