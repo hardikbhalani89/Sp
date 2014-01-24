@@ -5,7 +5,7 @@ import java.net.InetAddress;
 
 
 public enum Constants {
-	SUCCESS,FAILURE,SERVER_PATH,REDIRECT_PATH,IMAGE_DISP_PATH,IMAGE_DISP_PATH_IP;
+	SUCCESS,FAILURE,SERVER_PATH,REDIRECT_PATH,IMAGE_DISP_PATH,IMAGE_DISP_PATH_IP,NEWVAR;
 	
 	
   public String toString(){
@@ -22,6 +22,8 @@ public enum Constants {
 			return "http://127.0.0.1:8080/spimages"+File.separator;
 		case IMAGE_DISP_PATH_IP:
 			return "http://127.0.0.1:8080";
+		case NEWVAR:
+			return "ASD";
 			//return "http://127.0.0.1:8080";
 			//return "/postconnectimages"+File.separator;
 		default:
