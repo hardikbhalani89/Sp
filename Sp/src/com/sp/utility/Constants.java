@@ -21,7 +21,7 @@ public enum Constants {
 		case IMAGE_DISP_PATH:
 			return "http://127.0.0.1:8080/spimages"+File.separator;
 		case IMAGE_DISP_PATH_IP:
-			return "http://127.0.0.1:8080";
+			return "http://127.0.0.1:8080 ";
 			//return "http://127.0.0.1:8080";
 			//return "/postconnectimages"+File.separator;
 		default:
