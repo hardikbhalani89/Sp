@@ -110,7 +110,7 @@ function validateForm(){
             </div>
            
                 <div class="newslatter-block">
-                	 <h2>Connecting people in Post.</h2> 
+                	 <h2>1. Connecting people in Post.</h2> 
                     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper, sem sed lobortis imperdiet, orci risus convallis orci, non luctus neque dui id libero. Etiam laoreet ante consectetur urna sagittis sit amet pretium sem aliquam.</p> -->
                      <p>Backed by some of the best names in the industry from Editors to Post Production Supervisors, Post Connect is an exciting new project aimed at bringing the post production community together on all levels.<br>Join us now ready for the launch!</p>
                     <%-- <form action="" method="get" class="sub-form">
